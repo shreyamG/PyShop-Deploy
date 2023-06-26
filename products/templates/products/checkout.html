@@ -1,8 +1,9 @@
 {% extends 'base.html' %}
+{% load static %}
 
 
 {% block content %}
     <div class="text-center">
-        <img src="..\static\images\work.jpg" class="img-fluid" alt="Responsive image">
+        <img src="{% static 'images/work.jpg' %}" class="img-fluid" alt="Responsive image">
     </div>
 {% endblock %}
